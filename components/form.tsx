@@ -31,7 +31,7 @@ const Form: React.FC<FormProps> = ({ guesses, setGuesses }: FormProps) => {
     };
 
     return (
-        <form onSubmit={handleSubmit}>
+        <form className="text-center" onSubmit={handleSubmit}>
             <input
                 className="text-center border-2 border-gray-400 p-2 m-2 text-xl"
                 type="text"
@@ -42,8 +42,9 @@ const Form: React.FC<FormProps> = ({ guesses, setGuesses }: FormProps) => {
                 placeholder="Enter your guess"
                 required
             />
+            <br />
             <button
-                className="bg-blue-500 hover:bg-blue-700 text-center text-white py-2 px-4 rounded text-xl"
+                className="bg-blue-500 hover:bg-blue-700 text-center text-white py-1 px-4 rounded text-l"
                 type="submit"
             >
                 Submit
