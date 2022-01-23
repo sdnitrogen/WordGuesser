@@ -2,6 +2,8 @@
 
 A Wordle clone built with Next.js, TypeScript and Tailwind CSS.
 
+Play here: [https://wordguesser.vercel.app/](https://wordguesser.vercel.app/)
+
 ### Features
 
 -   Guess the 5-letter word in 6 attempts
