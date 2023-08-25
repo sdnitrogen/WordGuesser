@@ -18,7 +18,7 @@ Play here: [https://wordguesser.vercel.app/](https://wordguesser.vercel.app/)
 ### How to run
 
 -   Clone this repository to your local system.
--   cd to the project directory on terminal and type `npm run dev`
+-   cd to the project directory on terminal and type `npm install` followed by `npm run dev`
 -   Go to url: http://localhost:3000 in your browser to play the game.
 
 ### Preview
